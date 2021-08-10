@@ -10,7 +10,7 @@ import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(locations={"file:src/main/resources/spring/*.xml"})
-@ContextConfiguration(locations={"classpath:/spring/*.xml"})
+@ContextConfiguration(locations={"classpath:spring/*.xml"})
 public class TestGetBoardList {
 
     @Resource(name="boardService")
